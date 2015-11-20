@@ -1,0 +1,3 @@
+# Sass temporary files #
+########################
+sass/.sass-cache/**/*
