@@ -8,14 +8,31 @@ h2 {
   font-family: $lato;
   font-size: 30px;
   font-weight: 900;
+  color: $blue-light;
+  line-height: 30px;
+  margin: 0 0 20px 0;
 }
 h3 {
   font-family: $lato;
   font-size: 18px;
   font-weight: 900;
+  color: $blue-light;
+  line-height: 18px;
+  margin: 0 0 10px 0;
 }
 p {
   font-family: $lato;
   font-size: 12px;
   font-weight: 400;
+  color: $blue-lighter;
+  line-height: 22px;
+  margin: 0 0 10px 0;
+}
+p.head-line {
+  font-family: $lato;
+  font-size: 18px;
+  font-weight: 300;
+  color: $blue-lighter;
+  line-height: 30px;
+  margin: 0 0 36px 0;
 }
