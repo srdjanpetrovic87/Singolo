@@ -368,8 +368,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?1448026094);
-  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?&1448026094#iefix) format("embedded-opentype"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff2?1448026094) format("woff2"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff?1448026094) format("woff"), url(/fonts/bootstrap/glyphicons-halflings-regular.ttf?1448026094) format("truetype"), url(/fonts/bootstrap/glyphicons-halflings-regular.svg?1448026094#glyphicons_halflingsregular) format("svg");
+  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?1448026094);
+  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?&1448026094#iefix) format("embedded-opentype"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff2?1448026094) format("woff2"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff?1448026094) format("woff"), url(../fonts/bootstrap/glyphicons-halflings-regular.ttf?1448026094) format("truetype"), url(../fonts/bootstrap/glyphicons-halflings-regular.svg?1448026094#glyphicons_halflingsregular) format("svg");
 }
 /* line 24, ../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -8857,4 +8857,29 @@ header .navbar-default .navbar-nav > .active > a:hover,
 header .navbar-default .navbar-nav > .active > a:focus {
   color: #f06c64;
   background-color: transparent;
+}
+
+/* line 1, ../sass/modules/_carousel.scss */
+.carousel-wrap {
+  padding: 55px 0 54px;
+  background: #f06c64;
+  border-bottom: 6px solid #ea676b;
+}
+/* line 5, ../sass/modules/_carousel.scss */
+.carousel-wrap .carousel-inner > .item > img {
+  margin: 0 auto;
+}
+/* line 8, ../sass/modules/_carousel.scss */
+.carousel-wrap .carousel-control.left,
+.carousel-wrap .carousel-control.right {
+  background: transparent;
+  text-shadow: none;
+  color: #ca372f;
+  opacity: 1;
+}
+/* line 14, ../sass/modules/_carousel.scss */
+.carousel-wrap .carousel-control.left:hover,
+.carousel-wrap .carousel-control.right:hover {
+  opacity: 1;
+  color: #b6322a;
 }

@@ -1,0 +1,19 @@
+.carousel-wrap {
+  padding: 55px 0 54px;
+  background: $pink-light;
+  border-bottom: 6px solid $pink;
+  .carousel-inner > .item > img {
+    margin: 0 auto;
+  }
+  .carousel-control.left,
+  .carousel-control.right {
+    background: transparent;
+    text-shadow: none;
+    color: darken($pink-darker, 8.5%);
+    opacity: 1;
+    &:hover {
+      opacity: 1;
+      color: darken($pink-darker, 13.5%);
+    }
+  }
+}
