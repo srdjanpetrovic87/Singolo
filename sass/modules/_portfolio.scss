@@ -1,0 +1,35 @@
+#portfolio {
+  padding: 65px 0 44px;
+  background: $blue-dark;
+  border-bottom: 6px solid $blue-darker;
+  p.headline {
+    margin: 0 0 10px 0;
+  }
+  .nav {
+    margin: 0 0 20px 0;
+  }
+  .nav > li > a {
+    padding: 5px;
+    font-family: $lato;
+    font-size: 12px;
+    font-weight: 400;
+    color: $blue-lighter;
+    border: 1px solid $blue-lighter;
+    background: transparent;
+  }
+  .nav-pills > li + li {
+    margin-left: 10px;
+  }
+  .nav-pills > li.active > a,
+  .nav-pills > li.active > a:hover,
+  .nav-pills > li.active > a:focus {
+    color: $white;
+    background: transparent;
+  }
+  
+  .tab-pane {
+    img {
+      margin: 0 0 20px 0;
+    }
+  }
+}
