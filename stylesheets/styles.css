@@ -8821,20 +8821,21 @@ p.headline {
 /* line 1, ../sass/_config.scss */
 body {
   line-height: 1;
+  padding: 95px 0 0 0;
 }
 
-/* line 4, ../sass/_config.scss */
+/* line 5, ../sass/_config.scss */
 .container {
   max-width: 970px;
 }
 
-/* line 7, ../sass/_config.scss */
+/* line 8, ../sass/_config.scss */
 .row {
   margin-left: -10px;
   margin-right: -10px;
 }
 
-/* line 11, ../sass/_config.scss */
+/* line 12, ../sass/_config.scss */
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
 .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
 .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
@@ -8851,19 +8852,19 @@ body {
   padding-right: 10px;
 }
 
-/* line 26, ../sass/_config.scss */
+/* line 27, ../sass/_config.scss */
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* line 31, ../sass/_config.scss */
+/* line 32, ../sass/_config.scss */
 .tooltip.top .tooltip-arrow {
   border-top-color: #d6564f;
 }
 
-/* line 34, ../sass/_config.scss */
+/* line 35, ../sass/_config.scss */
 .tooltip-inner {
   color: #f0d8d9;
   background: #d6564f;
