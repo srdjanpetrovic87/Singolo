@@ -1,0 +1,86 @@
+#contact {
+  padding: 65px 0 50px;
+  border-bottom: 6px solid $pink;
+  background: $pink-light;
+  h2 {
+    color: $pink-lighter;
+  }
+  h3 {
+    color: $pink-lighter;
+  }
+  p {
+    color: $pink-lighter;
+  }
+  p.headline {
+    margin: 0 0 42px 0;
+  }
+  .contact-form {
+    margin: 0 0 20px 0;
+    li {
+      margin: 0 0 16px 0;
+    }
+    input {
+      display: block;
+      width: 100%;
+      padding: 0 10px;
+      border: none;
+      border-radius: 6px;
+      background: $pink-darker;
+      font-family: $lato;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 38px;
+      color: $pink-dark;
+      &:hover,
+      &:focus {
+        outline: none;
+      }
+    }
+    textarea {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      padding: 0 10px;
+       min-height: 200px;
+      border: none;
+      border-radius: 6px;
+      background: $pink-darker;
+      font-family: $lato;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 38px;
+      color: $pink-dark; 
+      &:hover,
+      &:focus {
+        outline: none;
+      }   
+    }
+  }
+  .contact-information {
+    margin: 0 0 20px 0;
+    p {
+      margin: 0 0 20px 0;
+    }
+    ul > li {
+      font-family: $lato;
+      font-size: 12px;
+      font-weight: 400;
+      color: $pink-lighter;
+      padding: 0 0 0 20px;
+      margin: 0 0 10px 0;
+      background: url("../images/sprites-footer.png") no-repeat;
+      &:nth-child(1) {
+        background-position: 0 0;
+      }
+      &:nth-child(2) {
+        background-position: 0 -21px;
+      }
+      &:nth-child(3) {
+        background-position: 0 -44px;
+      }
+      a {
+        color: $pink-lighter;
+      }
+    }
+  }
+}
