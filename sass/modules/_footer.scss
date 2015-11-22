@@ -2,10 +2,12 @@
   background: $blue-dark;
   padding: 22px 0;
   p {
+    float: left;
     line-height: 32px;
     margin: 0;
   }
   .social-networks {
+    float: right;
     @include clearfix();
     margin: 0;
     li {
@@ -30,6 +32,17 @@
         width: 32px;
         height: 32px;
       }
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  .footer {
+    p {
+      float: none;
+      margin: 0 0 10px 0;
+    }
+    .social-networks {
+      float: none;
     }
   }
 }

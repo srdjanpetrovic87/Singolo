@@ -33,3 +33,21 @@
     }
   }
 }
+@media screen and (max-width: 360px) {
+  #portfolio {
+    .nav {
+      margin: 0 0 10px 0;
+    }
+    .nav > li > a {
+      display: block;
+    }
+    .nav-pills > li {
+      float: none;
+      margin: 0 0 10px 0;
+    }
+    .nav-pills > li + li {
+      margin-left: 0;
+    }
+
+  }
+}
