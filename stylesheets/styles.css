@@ -8858,6 +8858,18 @@ ul {
   margin: 0;
 }
 
+/* line 31, ../sass/_config.scss */
+.tooltip.top .tooltip-arrow {
+  border-top-color: #d6564f;
+}
+
+/* line 34, ../sass/_config.scss */
+.tooltip-inner {
+  color: #f0d8d9;
+  background: #d6564f;
+  border: solid 1px #d6564f;
+}
+
 /* line 2, ../sass/modules/_header.scss */
 .header .navbar {
   margin: 0;

@@ -28,3 +28,12 @@ ul {
   padding: 0;
   margin: 0;
 }
+.tooltip.top .tooltip-arrow {
+  border-top-color: $pink-darker;
+}
+.tooltip-inner {
+  color: $pink-lighter;
+  background: $pink-darker;
+  border: solid 1px $pink-darker;
+}
+
