@@ -8820,7 +8820,7 @@ p.headline {
 
 /* line 1, ../sass/_config.scss */
 body {
-  line-height: 1;
+  line-height: 100%;
   padding: 95px 0 0 0;
 }
 
