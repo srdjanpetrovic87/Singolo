@@ -16,25 +16,32 @@
     li {
       float: left;
       margin: 0 8px 10px 0;
-      background: url("../images/sprites-social.png") no-repeat;
-      &:nth-child(1) {
-        background-position: 0 0;
-      }
-      &:nth-child(2) {
-        background-position: -40px 0;
-      }
-      &:nth-child(3) {
-        background-position: -80px 0;
-      }
-      &:nth-child(4) {
-        background-position: -120px 0;
-      }
       a {
         display: block;
         text-indent: -9999em;
+        background-image: url("../images/sprites-social.png");
+        background-repeat: no-repeat; 
         width: 32px;
         height: 32px;
+        border-radius: 50%;
+        @include transition(all, .5s);
+        &:hover,
+        &:focus {
+          background-color: $pink-light;
+        }
       }
+    }
+    li:nth-child(1) a {
+      background-position: 0 0;
+    }
+    li:nth-child(2) a {
+      background-position: -40px 0;
+    }
+    li:nth-child(3) a {
+      background-position: -80px 0;
+    }
+    li:nth-child(4) a {
+      background-position: -120px 0;
     }
   }
 }

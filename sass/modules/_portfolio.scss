@@ -16,6 +16,12 @@
     color: $blue-lighter;
     border: 1px solid $blue-lighter;
     background: transparent;
+    @include transition(all, .5s);
+    &:hover,
+    &:focus {
+      color: $white;
+      background: $gray;
+    }
   }
   .nav-pills > li + li {
     margin-left: 10px;
@@ -24,7 +30,7 @@
   .nav-pills > li.active > a:hover,
   .nav-pills > li.active > a:focus {
     color: $white;
-    background: transparent;
+    background: $gray;
   }
   
   .tab-pane {
